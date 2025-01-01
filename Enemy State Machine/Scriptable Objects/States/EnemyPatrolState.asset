@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90df0c799a885b54abd1512ca3a5fe8b, type: 3}
+  m_Name: EnemyPatrolState
+  m_EditorClassIdentifier: 
+  EnemyActions:
+  - {fileID: 11400000, guid: 0473d18afb7838744b6df68f41e97d56, type: 2}
+  EnemyTransitions:
+  - _EnemyDecision: {fileID: 11400000, guid: 833e5c86d53d5924fba608ee4f7748d6, type: 2}
+    _TrueState: {fileID: 11400000, guid: 39c0c196a4e5999438a85112e7b8800e, type: 2}
+    _FalseState: {fileID: 11400000, guid: 4ab592aeeec306e4e82ed7a8034a4aff, type: 2}
+  SceneGizmosColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.40392157}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90df0c799a885b54abd1512ca3a5fe8b, type: 3}
+  m_Name: EnemyChaseState
+  m_EditorClassIdentifier: 
+  EnemyActions:
+  - {fileID: 11400000, guid: ff16f10070e18a44c8bf9f22ea043901, type: 2}
+  EnemyTransitions:
+  - _EnemyDecision: {fileID: 11400000, guid: dd962a7254875ca4a98b81584b300b54, type: 2}
+    _TrueState: {fileID: 11400000, guid: e9c1cc92ff80c5c48b75083c773007c5, type: 2}
+    _FalseState: {fileID: 11400000, guid: 4ab592aeeec306e4e82ed7a8034a4aff, type: 2}
+  - _EnemyDecision: {fileID: 11400000, guid: fffa8c551173ec940be66a034c1c09e7, type: 2}
+    _TrueState: {fileID: 11400000, guid: 54d43f6067ca002468efc5cf461186c4, type: 2}
+    _FalseState: {fileID: 11400000, guid: 4ab592aeeec306e4e82ed7a8034a4aff, type: 2}
+  SceneGizmosColor: {r: 0.24416399, g: 1, b: 0.023584902, a: 0.5254902}
